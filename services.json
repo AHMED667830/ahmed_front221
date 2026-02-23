@@ -1,0 +1,32 @@
+[
+  {
+    "id": 5,
+    "name": "أعراس",
+    "description": "e photos",
+    "coverImages": "\"/uploads/coverImages-1771146835889-322344418.jpg,/uploads/coverImages-1771146835891-386026259.jpg\""
+  },
+  {
+    "id": 6,
+    "name": "تغطيات",
+    "description": "wedding photos",
+    "coverImages": "\"/uploads/coverImages-1771443107252-943534587.png\""
+  },
+  {
+    "id": 7,
+    "name": "weddings",
+    "description": "weddings photo",
+    "coverImages": "\"/uploads/coverImages-1771149748390-430915813.jpg\""
+  },
+  {
+    "id": 9,
+    "name": "درونز",
+    "description": "ااايا",
+    "coverImages": "[\"/uploads/coverImages-1771536244674-25473669.png\"]"
+  },
+  {
+    "id": 12,
+    "name": "باسل",
+    "description": null,
+    "coverImages": "[\"/uploads/service-up-1771713174141-99546026.png\"]"
+  }
+]

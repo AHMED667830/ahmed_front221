@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme{
+    --font-Vazirmatn: "Vazirmatn", sans-serif;
+    --color-textPage: #E7F2E2;
+};
+
+html, body { overflow-x: hidden; }
+body{
+    background-color: #202C28;
+
+}
+@keyframes marqueeRtl {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.marquee-rtl{
+  display:flex;
+  flex-wrap:nowrap;
+  width:max-content;
+  animation:marqueeRtl 25s linear infinite;
+}
+
+.group:hover .marquee-rtl{
+  animation-play-state:paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 45s linear infinite;
+}
+.animate-scroll:hover {
+  animation-play-state: paused;
+  transition: 3s;
+}
+
+.animate-marquee {
+  animation: marqueeRightToLeft 20s linear infinite;
+}
